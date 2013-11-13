@@ -8,5 +8,5 @@ module ApplicationHelper
     return base_titre2 if @titre.nil?
     return "#{base_titre} #{@titre}" 
   end
-
+  
 end
