@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Vous êtes à la page : <%= @titre %> </title>
+	<%= csrf_meta_tag %>
 	<%= render 'layouts/stylesheets' %>
 </head>
 <body>
-
 	<div class="container">
 		<%= render 'layouts/header' %>
 
